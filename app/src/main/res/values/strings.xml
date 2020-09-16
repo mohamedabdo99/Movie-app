@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MoviesDrama</string>
+    <string name="action_setting">setting</string>
+    <string name="name_movie">Movie title</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="plot">Plot Synopsis</string>
+    <string name="rating">User Rating</string>
+    <string name="language">language</string>
+    <string name="release">Release Details</string>
+    <string name="pref_order_label">Sort Order</string>
+    <string name="pref_order_key">SortOrder</string>
+    <string name="pref_most_popular">Most Popular</string>
+    <string name="pref_hight_rated">Highest Rated</string>
+
+</resources>

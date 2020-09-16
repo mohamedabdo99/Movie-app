@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="@dimen/_12sdp"
+    android:elevation="@dimen/_3sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:background="@color/colorAccent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:id="@+id/image_card"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        />
+    <TextView
+        android:id="@+id/text_title_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/_12sdp"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingTop="@dimen/_12sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:text="@string/name_movie"
+        android:layout_below="@+id/image_card"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="@dimen/_20sdp"
+        />
+        <TextView
+            android:id="@+id/text_rating_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_12sdp"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_12sdp"
+            android:text="@string/language"
+            android:textAlignment="viewEnd"
+            android:layout_below="@+id/image_card"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
